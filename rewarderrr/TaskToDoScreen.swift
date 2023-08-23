@@ -34,10 +34,16 @@ extension ToggleStyle where Self == CheckboxToggleStyle {
 }
 struct TaskToDoScreen: View {
     @State private var teethBrushed = false
+    @State private var roomCleaned = false
+    @State private var mealsHad = false
+    @State private var healthyFood = false
+    @State private var niceEveryone = false
+    @State private var sportActivity = false
+    @State private var schoolTime = false
+    @State private var homeworkDone = false
     let size: CGFloat = 100
     var body: some View {
         VStack {
-            Text ("CATEGORIES - Self Care, Nutrition, Social, School")
             Image ("bearwithredhat")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
@@ -51,16 +57,16 @@ struct TaskToDoScreen: View {
             List {
                 Section(header:Text("Self Care")) {
                     Toggle(isOn:$teethBrushed) { Text("I brushed my teeth")} .toggleStyle(.checkmark)
-                    Toggle(isOn:$teethBrushed) { Text("I cleaned my room")} .toggleStyle(.checkmark)}
+                    Toggle(isOn:$roomCleaned) { Text("I cleaned my room")} .toggleStyle(.checkmark)}
                 Section(header:Text("Nutrition")) {
-                    Toggle(isOn:$teethBrushed) { Text("I finished three meals")} .toggleStyle(.checkmark)
-                    Toggle(isOn:$teethBrushed) { Text("I ate healthy foods")} .toggleStyle(.checkmark)}
+                    Toggle(isOn:$mealsHad) { Text("I finished three meals")} .toggleStyle(.checkmark)
+                    Toggle(isOn:$healthyFood) { Text("I ate healthy foods")} .toggleStyle(.checkmark)}
                 Section(header:Text("Social")) {
-                    Toggle(isOn:$teethBrushed) { Text("I was nice to everyone")} .toggleStyle(.checkmark)
-                    Toggle(isOn:$teethBrushed) { Text("I played a sport or did an activity")} .toggleStyle(.checkmark)}
+                    Toggle(isOn:$niceEveryone) { Text("I was nice to everyone")} .toggleStyle(.checkmark)
+                    Toggle(isOn:$sportActivity) { Text("I played a sport or did an activity")} .toggleStyle(.checkmark)}
                 Section(header:Text("School")) {
-                    Toggle(isOn:$teethBrushed) { Text("I got to school on time")} .toggleStyle(.checkmark)
-                    Toggle(isOn:$teethBrushed) { Text("I did my homework (if I had any)")} .toggleStyle(.checkmark)}
+                    Toggle(isOn:$schoolTime) { Text("I got to school on time")} .toggleStyle(.checkmark)
+                    Toggle(isOn:$homeworkDone) { Text("I did my homework (if I had any)")} .toggleStyle(.checkmark)}
             }
         }
     }
