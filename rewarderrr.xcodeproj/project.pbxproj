@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		C86145B02A96A40700CF0176 /* rewarderrrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86145AF2A96A40700CF0176 /* rewarderrrApp.swift */; };
-		C86145B22A96A40700CF0176 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86145B12A96A40700CF0176 /* ContentView.swift */; };
-		C86145B42A96A40900CF0176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86145B32A96A40900CF0176 /* Assets.xcassets */; };
 		C86145B72A96A40900CF0176 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86145B62A96A40900CF0176 /* Preview Assets.xcassets */; };
 		C86145C12A96A40900CF0176 /* rewarderrrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86145C02A96A40900CF0176 /* rewarderrrTests.swift */; };
 		C86145CB2A96A40900CF0176 /* rewarderrrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86145CA2A96A40900CF0176 /* rewarderrrUITests.swift */; };
 		C86145CD2A96A40900CF0176 /* rewarderrrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86145CC2A96A40900CF0176 /* rewarderrrUITestsLaunchTests.swift */; };
+		C86145E82A96ACF100CF0176 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86145E72A96ACF100CF0176 /* ContentView.swift */; };
+		C86145EA2A96AE0400CF0176 /* PickYourAvatarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86145E92A96AE0400CF0176 /* PickYourAvatarScreen.swift */; };
+		C86145EC2A96AE1B00CF0176 /* StartChecklistScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86145EB2A96AE1B00CF0176 /* StartChecklistScreen.swift */; };
+		C86145EE2A96AE2800CF0176 /* TaskToDoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86145ED2A96AE2800CF0176 /* TaskToDoScreen.swift */; };
+		C86145F02A96AFAD00CF0176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86145EF2A96AFAD00CF0176 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +39,17 @@
 /* Begin PBXFileReference section */
 		C86145AC2A96A40700CF0176 /* rewarderrr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rewarderrr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86145AF2A96A40700CF0176 /* rewarderrrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rewarderrrApp.swift; sourceTree = "<group>"; };
-		C86145B12A96A40700CF0176 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C86145B32A96A40900CF0176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C86145B62A96A40900CF0176 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C86145BC2A96A40900CF0176 /* rewarderrrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rewarderrrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86145C02A96A40900CF0176 /* rewarderrrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rewarderrrTests.swift; sourceTree = "<group>"; };
 		C86145C62A96A40900CF0176 /* rewarderrrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rewarderrrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86145CA2A96A40900CF0176 /* rewarderrrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rewarderrrUITests.swift; sourceTree = "<group>"; };
 		C86145CC2A96A40900CF0176 /* rewarderrrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rewarderrrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C86145E72A96ACF100CF0176 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C86145E92A96AE0400CF0176 /* PickYourAvatarScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickYourAvatarScreen.swift; sourceTree = "<group>"; };
+		C86145EB2A96AE1B00CF0176 /* StartChecklistScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartChecklistScreen.swift; sourceTree = "<group>"; };
+		C86145ED2A96AE2800CF0176 /* TaskToDoScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskToDoScreen.swift; sourceTree = "<group>"; };
+		C86145EF2A96AFAD00CF0176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +100,12 @@
 		C86145AE2A96A40700CF0176 /* rewarderrr */ = {
 			isa = PBXGroup;
 			children = (
+				C86145EF2A96AFAD00CF0176 /* Assets.xcassets */,
+				C86145ED2A96AE2800CF0176 /* TaskToDoScreen.swift */,
+				C86145EB2A96AE1B00CF0176 /* StartChecklistScreen.swift */,
+				C86145E92A96AE0400CF0176 /* PickYourAvatarScreen.swift */,
 				C86145AF2A96A40700CF0176 /* rewarderrrApp.swift */,
-				C86145B12A96A40700CF0176 /* ContentView.swift */,
-				C86145B32A96A40900CF0176 /* Assets.xcassets */,
+				C86145E72A96ACF100CF0176 /* ContentView.swift */,
 				C86145B52A96A40900CF0176 /* Preview Content */,
 			);
 			path = rewarderrr;
@@ -231,8 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C86145F02A96AFAD00CF0176 /* Assets.xcassets in Resources */,
 				C86145B72A96A40900CF0176 /* Preview Assets.xcassets in Resources */,
-				C86145B42A96A40900CF0176 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C86145B22A96A40700CF0176 /* ContentView.swift in Sources */,
+				C86145EA2A96AE0400CF0176 /* PickYourAvatarScreen.swift in Sources */,
+				C86145EC2A96AE1B00CF0176 /* StartChecklistScreen.swift in Sources */,
+				C86145EE2A96AE2800CF0176 /* TaskToDoScreen.swift in Sources */,
+				C86145E82A96ACF100CF0176 /* ContentView.swift in Sources */,
 				C86145B02A96A40700CF0176 /* rewarderrrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
